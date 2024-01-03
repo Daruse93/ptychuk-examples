@@ -8,12 +8,12 @@ export const StyledLayout = styled(Layout)`
 `;
 
 export const StyledLayoutContent = styled('div')`
-  min-height: 360px;
-  padding: 24px;
-  background: #fff;
+  min-height: ${theme.layout.defaultSize};
+  padding: ${theme.margins.xs};
+  background: ${theme.colors.white};
 `;
 
 export const StyledInputSearch = styled(Input)`
-  margin-bottom: 5px;
-  border: 3px solid ${theme.colors.black};
+  margin-bottom: ${theme.margins.xs};
+  border: ${theme.borders.input};
 `;
